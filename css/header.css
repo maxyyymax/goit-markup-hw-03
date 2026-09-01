@@ -42,3 +42,53 @@
 .contacts {
   font-style: normal;
 }
+
+.header-navigation {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.logo {
+  margin-right: 76px;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contacts-list {
+  display: flex;
+  allow-items: center;
+  gap: 40px;
+  width: 344px;
+}
+
+.contacts-link {
+  display: flex;
+  align-items: center;
+  height: 72px;
+}
