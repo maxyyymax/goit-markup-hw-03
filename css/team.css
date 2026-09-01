@@ -25,3 +25,12 @@
   text-align: center;
   color: #434455;
 }
+
+.team-list {
+  display: flex;
+  gap: 24px;
+}
+
+.team-title {
+  margin-bottom: 72px;
+}
