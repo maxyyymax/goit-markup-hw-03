@@ -29,3 +29,10 @@
   background-color: #2e2f42;
   text-align: center;
 }
+
+.hero {
+  display: flex;
+  padding: 188px 0;
+  align-items: center;
+  justify-content: center;
+}
