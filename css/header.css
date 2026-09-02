@@ -60,6 +60,7 @@
   display: flex;
   flex-direction: row;
   gap: 40px;
+  align-items: center;
 }
 
 .logo {
@@ -84,11 +85,26 @@
   display: flex;
   allow-items: center;
   gap: 40px;
-  width: 344px;
 }
 
 .contacts-link {
   display: flex;
   align-items: center;
   height: 72px;
+}
+
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.nav-link {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.contacts-link {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }

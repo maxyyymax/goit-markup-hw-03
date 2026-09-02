@@ -14,3 +14,19 @@
   margin: 0;
   padding: 0;
 }
+.features {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.features-item {
+  width: calc((100% - 72px) / 4);
+}
+
+.features-title-name {
+  margin-bottom: 8px;
+}
+
+.features-text {
+  margin-top: 0;
+}
